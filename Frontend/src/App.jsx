@@ -1,12 +1,14 @@
-import CarbonCalculator from './User Tools/carbonCalculator'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home/Home'
+import News from './News/news'
 
 function App() {
 
   return (
     <Router>
      <Routes>
-      <Route path="/" element={<CarbonCalculator />} />
+      <Route path="/" element={<Home/>} />
+      <Route path="/news" element={<News/>} />
      </Routes>
     </Router>
   )
