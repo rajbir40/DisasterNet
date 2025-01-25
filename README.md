@@ -54,9 +54,11 @@ The **Disaster Management System** is a centralized platform designed to address
 
 4. Set up the environment variables in a `.env` file:
    ```env
-   DATABASE_URL=<your-database-url>
-   AI_API_KEY=<your-ai-api-key>
-   BLOCKCHAIN_API_KEY=<your-blockchain-api-key>
+   PORT=5000
+   DATABASE_URL=
+   NEWS_API_KEY=your_news_api_key
+   RAPIDAPI_KEY=
+   RAPIDAPI_HOST=
    ```
 
 5. Start the server:
