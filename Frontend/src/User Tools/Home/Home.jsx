@@ -37,36 +37,7 @@ const DisasterResponseHomePage = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-white shadow-sm">
-        <div className="container mx-auto flex justify-between items-center py-4">
-          <div className="flex items-center space-x-8">
-            <h1 className="text-2xl font-bold text-primary">DisasterResponse</h1>
-            <NavigationMenu>
-              <NavigationMenuList className="flex space-x-4">
-                <NavigationMenuItem>
-                  <NavigationMenuLink href="/dashboard" className="hover:text-primary">
-                    Dashboard
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink href="/report" className="hover:text-primary">
-                    Report Disaster
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink href="/volunteer" className="hover:text-primary">
-                    Volunteer
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-            </NavigationMenu>
-          </div>
-          <div className="flex space-x-4">
-            <Button variant="outline">Login</Button>
-            <Button>Register</Button>
-          </div>
-        </div>
-      </nav>
+      
 
       {/* Hero Section */}
       <header className="container mx-auto text-center py-20 space-y-6">
